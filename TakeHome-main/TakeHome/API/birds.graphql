@@ -1,0 +1,15 @@
+query birds {
+  birds {
+    id
+    thumb_url
+    image_url
+    latin_name
+    english_name
+    notes {
+      id
+      comment
+      timestamp
+    }
+  }
+}
+

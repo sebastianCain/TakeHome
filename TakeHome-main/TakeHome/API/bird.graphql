@@ -1,0 +1,14 @@
+query Bird($id: ID!) {
+  bird(id: $id) {
+    id
+    thumb_url
+    image_url
+    latin_name
+    english_name
+    notes {
+      id
+      comment
+      timestamp
+    }
+  }
+}
